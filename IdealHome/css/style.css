@@ -1,0 +1,279 @@
+html,body{
+height:98%;
+}
+#foot{
+bottom:2%;
+width:60%;
+margin-left:auto;
+margin-right:auto;
+}
+.wrapper{
+border:none;
+min-height:100%;
+width:60%;
+margin-left:auto;
+margin-right:auto;
+background-color:#F6F6F2;
+}
+.wrapper a:link, .wrapper a:visited{
+color:#767673;
+}
+.wrapper a:hover{
+color:#000000;
+}
+.header{
+font-size:17px;
+width:100%;
+background-color:#E0E0E0;
+padding-bottom:1%;
+padding-top:1%;
+}
+#logo img{
+height:15%;
+margin-bottom:0px;
+padding-left:1%;
+}
+#menu{
+color:#FFFFFF;
+margin-top:1%;
+width:100%;
+}
+#menu ul{
+font-size:100%;
+font-weight:bold;
+padding:0;
+margin:0;
+text-align:center;
+}
+#menu li:first-child{
+padding-left:0;
+border-left:none;
+margin-left:0;
+}
+#menu li{
+display:inline;
+margin-left: 1em;
+border-left: 1px solid #000000;
+padding-left:1em;
+}
+#menu li a:link, #menu li a:visited, #menu li a:active{
+text-decoration:none;
+color:#000000;
+}
+
+#menu li a:hover{
+background-color:#E0E0E0;
+}
+#menu2{
+color:#FFFFFF;
+margin-top:1%;
+width:100%;
+}
+#menu2 ul{
+font-size:15px;
+font-style:tahoma;
+font-weight:bold;
+padding:0;
+margin:0;
+text-align:center;
+}
+#menu2 li:first-child{
+padding-left:0;
+border-left:none;
+margin-left:0;
+}
+#menu2 li{
+display:inline;
+margin-left: 1em;
+border-left: 1px solid #000000;
+padding-left:1em;
+}
+#menu2 li a:link, #menu li a:visited, #menu li a:active{
+text-decoration:none;
+color:#000000;
+}
+
+#menu2 li a:hover{
+background-color:#E0E0E0;
+}
+
+#menu3{
+color:#FFFFFF;
+margin-top:1%;
+width:100%;
+}
+#menu3 ul{
+font-size:15px;
+font-style:tahoma;
+font-weight:bold;
+padding:0;
+margin:0;
+text-align:center;
+}
+#menu3 li:first-child{
+padding-left:0;
+border-left:none;
+margin-left:0;
+}
+#menu3 li{
+display:inline;
+margin-left: 1em;
+border-left: 1px solid #000000;
+padding-left:1em;
+}
+#menu3 li a:link, #menu li a:visited, #menu li a:active{
+text-decoration:none;
+color:#000000;
+}
+
+#menu3 li a:hover{
+background-color:#E0E0E0;
+}
+
+#main table{
+border-collapse:collapse;
+vertical-align:middle;
+margin-left:1%;
+}
+
+#main{
+width:100%;
+text-align:left;
+}
+#main h2,h3{
+text-align:left;
+}
+
+#info{
+width:97%;
+font-style:Verdana;
+font-weight:italic;
+text-align:center;
+color: #808080;
+margin-left:auto;
+margin-right:auto;
+
+}
+#info p{
+font-style:Verdana;
+font-weight:italic;
+font-size:18px;
+}
+#welcome h2,h3{
+text-align:center;
+}
+#welcome{
+border:1px solid #ccc;
+background-color:#FFFFF5;
+margin-left:20%;
+margin-right:20%;
+padding:2% 2% 2% 2%;
+}
+
+#main a h3{
+margin-left:1%;
+font-weight:bold;
+}
+
+#main th,td{
+text-align:center;
+border:1px solid #ccc;
+}
+#main caption h3{
+text-align:left;
+}
+#main tr{
+background:#eee;
+}
+#main tr:hover{
+background:#E0E0E0;
+}
+#main input[type="text"]{
+background-color:rgba(0,0,0,0);
+border:none;
+text-align:center;
+outline:none;
+width:100%;
+}
+#main input[type="date"]{
+background-color:rgba(0,0,0,0);
+border:none;
+text-align:center;
+outline:none;
+margin-left:auto;
+margin-right:auto;
+}
+#main input[type="submit"]{
+background-color:rgba(0,0,0,0);
+text-align:center;
+outline:none;
+font-weight:bold;
+width:100%;
+}
+#main input[type="submit"]:hover{
+background: #FFFFF0;
+}
+#main select{
+background-color:#eee;
+outline:none;
+border:none;
+text-align:left;
+}
+
+@media only screen and (min-width: 280px) and (max-width:1919px){
+html{
+ovelflow-y:scroll;
+}
+#foot{
+width:100%;
+margin-right:auto;
+margin-left:auto;
+min-width:1020px;
+max-width:1020px;
+}
+.wrapper{
+width:100%;
+margin-right:auto;
+margin-left:auto;
+min-width:1020px;
+max-width:1020px;
+}
+.header{
+max-width:1020px;
+min-width:760px;
+width:100%;
+}
+#main table{
+max-width:950px;
+min-width:760px;
+}
+
+#main td{
+min-width:60px;
+max-width:120px;
+}
+
+#menu2{
+min-width:1020px;
+max-width:1020px;
+}
+#menu{
+min-width:680px;
+max-width:1020px;
+}
+#menu ul{
+text-align:center;
+}
+fieldset {min-width:400px;}
+}
+fieldset {margin-left:1%; border: 2px solid #aaa; padding: 10px; width:45%;background: #F8F8F8;}
+#form1 legend { font-weight: bold; padding: 0 5px; color: #000000; font-size:19px;}
+#form1 label { clear: both; display: block; padding: 15px 3px; cursor: pointer;font-weight: bold }
+#form1 input, #form1 select, #form1 textarea { float: left; background-color:#eee; padding:1.5%; border:1px solid #ccc;}
+#form1 input[type="text"] {border:1px solid #ccc; text-align:left;background: #eee; width:30%;}
+#form1 input[type="date"] {border:1px solid #ccc; text-align:left;background: #eee; width:30%;}
+#form1 input[type="submit"]{background-color: #E0E0E0;}
+#form1 label span { float: left; width: 30%;}
+#form1 select{text-align:left;}
+#form1 #submit { width:40%; margin-right:auto; margin-left:auto;cursor: default;}
+#form1 .submit { cursor: pointer; }
